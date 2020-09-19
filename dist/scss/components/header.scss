@@ -1,0 +1,102 @@
+header {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0%);
+  z-index: 2;
+  margin-top: 60px;
+  @media (max-width: 767.98px) {
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #53a1a4;
+    background: -moz-linear-gradient(-45deg, #53a1a4 0%, #2a6592 100%);
+    background: -webkit-linear-gradient(-45deg, #53a1a4 0%, #2a6592 100%);
+    background: linear-gradient(135deg, #53a1a4 0%, #2a6592 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53a1a4', endColorstr='#2a6592',GradientType=1 );
+    /* display: none;*/
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  @media (max-width: 767.98px) {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  &__menu {
+    ul {
+      @media (min-width: 767.98px) {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+      }
+      a {
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 15px;
+        text-decoration: none;
+        @include transition;
+        @media (max-width: 767.98px) {
+          font-size: 27px;
+          line-height: 70px;
+          text-transform: capitalize;
+        }
+        &:hover {
+          background: $aqua;
+          border-radius: 50px;
+        }
+      }
+    }
+  }
+  &__logo {
+    img {
+      &:nth-child(1) {
+        display: none;
+        @media (min-width: 767.98px) {
+          display: block;
+          width: 50%;
+        }
+      }
+      &:nth-child(2) {
+        position: absolute;
+        top: 30px;
+        left: -10px;
+        width: 130px;
+        @media (min-width: 767.98px) {
+          display: none;
+        }
+      }
+    }
+  }
+  &__closem {
+    width: 25px;
+    z-index: 999;
+    top: 30px;
+    right: -10px;
+    position: absolute;
+    cursor: pointer;
+    @media (min-width: 767.98px) {
+      display: none;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,.8);
+  margin-top: 0;
+  padding: 27px 0px;
+}

@@ -1,0 +1,47 @@
+footer {
+  background: #f2f2f2;
+  padding: 30px 0px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  p,
+  a {
+    color: $grey;
+    font-size: 14px;
+    margin: 0;
+    @media (max-width: 767.98px) {
+      text-align: center;
+      font-size: 12px;
+      padding: 0 1%;
+    }
+  }
+}
+
+.foot-logo {
+  background: #53a1a4;
+  background: -moz-linear-gradient(-45deg, #53a1a4 0%, #2a6592 100%);
+  background: -webkit-linear-gradient(-45deg, #53a1a4 0%, #2a6592 100%);
+  background: linear-gradient(135deg, #53a1a4 0%, #2a6592 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53a1a4', endColorstr='#2a6592',GradientType=1 );
+  padding: 60px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 767.98px) {
+    padding: 40px 0px;
+  }
+  &__item {
+    width: 240px;
+    img {
+      width: 100%;
+    }
+    @media (max-width: 767.98px) {
+      width: 200px;
+    }
+  }
+}
+
+.form-control:focus {
+  box-shadow: none;
+}

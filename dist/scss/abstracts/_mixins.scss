@@ -1,0 +1,13 @@
+@mixin elemCenter($position: absolute, $left: 50%, $top: 50%) {
+  position: $position;
+  left: $left;
+  top: $top;
+  transform: translate(-50%, -50%);
+}
+@mixin transition(
+  $transition-time: 0.25s,
+  $transition-property: all,
+  $method: ease-in-out
+) {
+  transition: $transition-property $transition-time $method;
+}

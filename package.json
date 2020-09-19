@@ -1,0 +1,27 @@
+{
+  "name": "insitu",
+  "version": "1.0.0",
+  "description": "insitu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "alexisaguilera",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aleaguilera/insitu-certificaciones.git"
+  }
+}
