@@ -1,0 +1,13 @@
+
+.banner#banner
+    .c-container
+        .row
+            .banner__left
+                .title.title--white
+                    h3 Equipamiento
+                ul.banner__left--list
+                    each val, index in ['Unidades de cuidados críticos', 'Quirófanos', 'Diagnóstico por imágenes', 'Neonatología', 'Maternidad', 'Emergentología', 'Gastroenterología', 'Cardiología', 'Traumatología', 'Laboratorios de análisis clínicos','Equipamiento para internación domiciliaria']
+                        li= val
+            .banner__right
+                img(src="images/product.png", alt="")
+                span#span Consulte por otros equipos.

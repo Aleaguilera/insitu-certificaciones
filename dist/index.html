@@ -1,258 +1,299 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-  </head>
-  <body id="top">
-    <header id="toggle">
-      <div class="c-container">
-        <div class="header">
-          <div class="header__closem" id="close"><img src="images/icon-close.svg" alt=""></div>
-          <div class="header__logo"> <img src="images/logo-mobile.svg" alt=""></div>
-          <div class="header__menu">
-            <ul>
-              <li><a href="#servicios">Servicios</a></li>
-              <li><a href="#nosotros">Nosotros</a></li>
-              <li><a href="#trazabilidad">Trazabilidad</a></li>
-              <li><a href="#contacto">Contacto</a></li>
-            </ul>
-          </div>
-        </div>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+</head>
+
+<body id="top">
+  <div class="hero">
+    <div class="hero__mobile"><img src="images/hero-bg-mobile.jpg" alt=""></div>
+    <div class="hero__info">
+      <div class="hero__info--main"><img src="images/logo-insitu-tech.svg" alt=""></div>
+      <h2>Llegamos a donde nadie llega</h2>
+    </div>
+    <div class="hero__menu">
+      <div class="hero__menu--logo"><img src="images/logo-insitu-lg.svg" alt=""><img src="images/logo-mobile.svg"
+          alt="">
+        <div class="hero__menu--burger" id="open"></div>
       </div>
-    </header>
-    <div class="hero">
-      <div class="hero__mobile"><img src="images/hero-bg-mobile.jpg" alt=""></div>
-      <div class="hero__info">
-        <div class="hero__info--main"><img src="images/logo-insitu-tech.svg" alt=""></div>
-        <h2>Llegamos a donde nadie llega</h2>
-      </div>
-      <div class="hero__menu">
-        <div class="hero__menu--logo"><img src="images/logo-insitu-lg.svg" alt=""><img src="images/logo-mobile.svg" alt="">
-          <div class="hero__menu--burger" id="open"></div>
-        </div>
-        <div class="hamburger hamburger--spin">
-          <div class="hamburger-box"></div>
-          <div class="hamburger-inner"></div>
-        </div>
+      <div class="hamburger hamburger--spin">
+        <div class="hamburger-box"></div>
+        <div class="hamburger-inner"></div>
       </div>
     </div>
-    <div class="about-us" id="nosotros">
-      <div class="c-container">
-        <div class="title">
-          <h3>Nosotros</h3>
-        </div>
-        <div class="about-us__info">
-          <p>
-             Somos una empresa de tecnología médica especializada en <br>una amplia gama de servicios orientados a satisfacer las <br>necesidades de equipamiento médico hospitalario.<br>Llevamos a cabo soluciones que contribuyen a lograr <br>eficiencia, mejorar la calidad de atención<br>de los pacientes, optimizar el flujo de trabajo y reducir los <br>costos de mantenimientos.</p>
-        </div>
-        <div class="about-us__profiles">
-          <div class="row">
-            <div class="col-12 col-lg-5 mb-5 mb-lg-0">
-              <div class="bout-us__profiles--item">
-                <div class="box-image"><img src="images/prevent-icon.svg" alt=""></div>
-                <p><b>Priorizamos constantemente la prevención</b><br>por encima de la corrección, logrando mayor efectividad en los mantenimientos y prolongando la vida útil de su parque tecnológico.</p>
-              </div>
-            </div>
-            <div class="col-12 col-lg-5">
-              <div class="bout-us__profiles--item">
-                <div class="box-image"><img src="images/location-icon.svg" alt="" width="50"></div>
-                <p> <b>Realizamos los servicios dentro de su establecimiento</b>
-                  <garantizando>agilidad y disponibilidad continua de su equipamiento, disminuyendo los tiempos muertos y evitando riesgos en el traslado.</garantizando>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+  </div>
+  <div class="about-us" id="nosotros">
+    <div class="container">
+      <div class="title">
+        <h3>Nosotros</h3>
       </div>
-    </div>
-    <div class="instruments" id="instruments">
-      <div class="c-container">
+      <div class="about-us__info">
+        <p>
+          Somos una empresa de tecnología médica especializada en <br>una amplia gama de servicios orientados a
+          satisfacer las <br>necesidades de equipamiento médico hospitalario.<br>Llevamos a cabo soluciones que
+          contribuyen a lograr <br>eficiencia, mejorar la calidad de atención<br>de los pacientes, optimizar el flujo de
+          trabajo y reducir los <br>costos de mantenimientos.</p>
+      </div>
+      <div class="about-us__profiles">
         <div class="row">
-          <div class="instruments__left">
-            <p> <b>Contamos con profesionales altamente capacitados </b>en áreas de tecnología médica, ingeniería, sistemas, electromedicina, legales y comercialización.</p>
-            <p> <b>Nos encontramos en constante evolución.</b><br>Ocupándonos de la capacitación directa y actualización permanente acerca de los avances tecnológicos de cada sector hospitalario.</p>
-          </div>
-          <div class="instruments__right"><img src="images/img-instruments.png" alt=""><span>Nuestro instrumental cuenta con certificados de calibración.</span></div>
-        </div>
-      </div>
-    </div>
-    <div class="services" id="servicios">
-      <div class="c-container">
-        <div class="title">
-          <h3>Servicios</h3>
-        </div>
-        <div class="services__list">
-          <div class="services__list--item"><span><img src="images/icon-instalacion.svg" alt=""></span>
-            <div class="txt">
-              <p> <b>Instalación y venta </b><br>Equipamiento médico, accesorios, consumibles, opcionales.</p>
+          <div class="col-12 col-lg-5 mb-5 mb-lg-0">
+            <div class="bout-us__profiles--item">
+              <div class="box-image"><img src="images/prevent-icon.svg" alt=""></div>
+              <p><b>Priorizamos constantemente la prevención</b><br>por encima de la corrección, logrando mayor
+                efectividad en los mantenimientos y prolongando la vida útil de su parque tecnológico.</p>
             </div>
           </div>
-          <div class="services__list--item"><span><img src="images/icon-servicio.svg" alt=""></span>
-            <div class="txt">
-              <p> <b>Servicio posventa </b><br>Trazabilidad del equipamiento médico y capacitación específica a personal hospitalario.   </p>
-            </div>
-          </div>
-          <div class="services__list--item"><span><img src="images/icon-asesoramiento.svg" alt=""></span>
-            <div class="txt">
-              <p> <b>Asesoramiento profesional </b><br>Proyectos personalizados a pedido de la institución y generación de indicadores para la correcta toma de decisiones.</p>
-            </div>
-          </div>
-          <div class="services__list--item"><span><img src="images/icon-certi.svg" alt=""></span>
-            <div class="txt">
-              <p> <b>Certificación </b><br>En base a los reportes técnicos de ensayos generamos certificados con validez legal.</p>
-            </div>
-          </div>
-          <div class="services__list--item"><span><img src="images/icon-soporte.svg" alt=""></span>
-            <div class="txt">
-              <p> <b>Soporte técnico</b><br></p>Reparamos una gran variedad de equipamiento médico de distintas marcas y modelos bajo norma IRAM 62.353.
-            </div>
-          </div>
-          <div class="services__list--item"><span><img src="images/icon-programa.svg" alt=""></span>
-            <div class="txt">
-              <p> <b>Programas de mantenimiento </b><br>Diseñamos un perfil de mantenimiento preventivo para cada equipo, garantizando su funcionamiento en forma segura y constante.</p>
+          <div class="col-12 col-lg-5">
+            <div class="bout-us__profiles--item">
+              <div class="box-image"><img src="images/location-icon.svg" alt="" width="50"></div>
+              <p> <b>Realizamos los servicios dentro de su establecimiento</b>
+                <garantizando>agilidad y disponibilidad continua de su equipamiento, disminuyendo los tiempos muertos y
+                  evitando riesgos en el traslado.</garantizando>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="result">
-      <div class="c-container">
-        <div class="result__list">
-          <div class="result__list--item">
-            <div class="item-progress"><span></span></div>
-            <div class="item-content">
-              <p> <span>Reducción de costos</span>en reparaciones.</p>
+  </div>
+  <div class="banner" id="banner">
+    <div class="c-container">
+      <div class="row">
+        <div class="banner__left">
+          <p> <b>Contamos con profesionales altamente capacitados </b>en áreas de tecnología médica, ingeniería,
+            sistemas, electromedicina, legales y comercialización.</p>
+          <p> <b>Nos encontramos en constante evolución.</b><br>Ocupándonos de la capacitación directa y actualización
+            permanente acerca de los avances tecnológicos de cada sector hospitalario.</p>
+        </div>
+        <div class="banner__right"><img src="images/img-instruments.png" alt=""><span>Nuestro instrumental cuenta con
+            certificados de calibración.</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="services" id="servicios">
+    <div class="c-container">
+      <div class="title">
+        <h3>Servicios</h3>
+      </div>
+      <div class="services__list">
+        <div class="services__list--item"><span><img src="images/icon-instalacion.svg" alt=""></span>
+          <div class="txt">
+            <p> <b>Instalación y venta </b><br>Equipamiento médico, accesorios, consumibles, opcionales.</p>
+          </div>
+        </div>
+        <div class="services__list--item"><span><img src="images/icon-servicio.svg" alt=""></span>
+          <div class="txt">
+            <p> <b>Servicio posventa </b><br>Trazabilidad del equipamiento médico y capacitación específica a personal
+              hospitalario. </p>
+          </div>
+        </div>
+        <div class="services__list--item"><span><img src="images/icon-asesoramiento.svg" alt=""></span>
+          <div class="txt">
+            <p> <b>Asesoramiento profesional </b><br>Proyectos personalizados a pedido de la institución y generación de
+              indicadores para la correcta toma de decisiones.</p>
+          </div>
+        </div>
+        <div class="services__list--item"><span><img src="images/icon-certi.svg" alt=""></span>
+          <div class="txt">
+            <p> <b>Certificación </b><br>En base a los reportes técnicos de ensayos generamos certificados con validez
+              legal.</p>
+          </div>
+        </div>
+        <div class="services__list--item"><span><img src="images/icon-soporte.svg" alt=""></span>
+          <div class="txt">
+            <p> <b>Soporte técnico</b><br></p>Reparamos una gran variedad de equipamiento médico de distintas marcas y
+            modelos bajo norma IRAM 62.353.
+          </div>
+        </div>
+        <div class="services__list--item"><span><img src="images/icon-programa.svg" alt=""></span>
+          <div class="txt">
+            <p> <b>Programas de mantenimiento </b><br>Diseñamos un perfil de mantenimiento preventivo para cada equipo,
+              garantizando su funcionamiento en forma segura y constante.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="result">
+    <div class="c-container">
+      <div class="title">
+        <h3>Resultados</h3>
+      </div>
+      <div class="result__list">
+        <div class="result__list--item">
+          <div class="item-progress"><span></span></div>
+          <div class="item-content">
+            <p> <span>Reducción de costos</span>en reparaciones.</p>
+          </div>
+        </div>
+        <div class="result__list--item">
+          <div class="item-progress"><span></span></div>
+          <div class="item-content">
+            <p> <span>Disponibilidad continua </span>del equipamiento médico.</p>
+          </div>
+        </div>
+        <div class="result__list--item">
+          <div class="item-progress"><span></span></div>
+          <div class="item-content">
+            <p> <span>Seguridad</span>hacia el paciente y usuarios.</p>
+          </div>
+        </div>
+        <div class="result__list--item">
+          <div class="item-progress"><span></span></div>
+          <div class="item-content">
+            <p>Prevención de fallas.</p>
+          </div>
+        </div>
+        <div class="result__list--item">
+          <div class="item-progress"><span></span></div>
+          <div class="item-content">
+            <p> <span>Prolongación de la vida útil </span>de los equipos.</p>
+          </div>
+        </div>
+        <div class="result__list--item">
+          <div class="item-progress"><span></span></div>
+          <div class="item-content">
+            <p> <span>Trazabilidad </span>del equipamiento médico.</p>
+          </div>
+        </div>
+        <div class="result__list--item">
+          <div class="item-progress"><span></span></div>
+          <div class="item-content">
+            <p> <span>Equipamiento ensayado y certificado </span>bajo normativa vigente.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="banner" id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="banner__left">
+          <div class="title title--white">
+            <h3>Equipamiento</h3>
+          </div>
+          <ul class="banner__left--list">
+            <li>Unidades de cuidados críticos</li>
+            <li>Quirófanos</li>
+            <li>Diagnóstico por imágenes</li>
+            <li>Neonatología</li>
+            <li>Maternidad</li>
+            <li>Emergentología</li>
+            <li>Gastroenterología</li>
+            <li>Cardiología</li>
+            <li>Traumatología</li>
+            <li>Laboratorios de análisis clínicos</li>
+            <li>Equipamiento para internación domiciliaria</li>
+          </ul>
+        </div>
+        <div class="banner__right"><img src="images/product.png" alt=""><span id="span">Consulte por otros
+            equipos.</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="phrase">
+    <div class="c-container">
+      <div class="phrase__quote">
+        <p><span>“</span>Proporcionan un buen servicio con</p>
+        <p>profesionales cualificados, destando la celeridad</p>
+        <p>en el trabajo realizado. <span>”</span></p>
+      </div>
+      <div class="phrase__quote--autor">
+        <h3>DR. JUAN LUCHELLI</h3>
+      </div>
+    </div>
+  </div>
+  <div class="certificate" id="trazabilidad">
+    <div class="c-container">
+      <div class="certificate__box">
+        <div class="row">
+          <div class="col-12 col-lg-5 mb-5 mb-lg-0">
+            <div class="certificate__box--item">
+              <div class="oval-item"><a href="http://"><img src="images/icon-cert.svg" alt=""></a></div>
+              <h4>Certificado</h4>
+              <p>Entregamos certificados por los ensayos realizados a los equipos médicos. </p>
             </div>
           </div>
-          <div class="result__list--item">
-            <div class="item-progress"><span></span></div>
-            <div class="item-content">
-              <p> <span>Disponibilidad continua </span>del equipamiento médico.</p>
-            </div>
-          </div>
-          <div class="result__list--item">
-            <div class="item-progress"><span></span></div>
-            <div class="item-content">
-              <p> <span>Seguridad</span>hacia el paciente y usuarios.</p>
-            </div>
-          </div>
-          <div class="result__list--item">
-            <div class="item-progress"><span></span></div>
-            <div class="item-content">
-              <p>Prevención de fallas.</p>
-            </div>
-          </div>
-          <div class="result__list--item">
-            <div class="item-progress"><span></span></div>
-            <div class="item-content">
-              <p> <span>Prolongación de la vida útil </span>de los equipos.</p>
-            </div>
-          </div>
-          <div class="result__list--item">
-            <div class="item-progress"><span></span></div>
-            <div class="item-content">
-              <p> <span>Trazabilidad </span>del equipamiento médico.</p>
-            </div>
-          </div>
-          <div class="result__list--item">
-            <div class="item-progress"><span></span></div>
-            <div class="item-content">
-              <p> <span>Equipamiento ensayado y certificado </span>bajo normativa vigente.</p>
+          <div class="col-12 col-lg-5">
+            <div class="certificate__box--item">
+              <div class="oval-item"><a
+                  href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/220000-224999/224109/norma.htm"><img
+                    src="images/icon-law.svg" alt=""></a></div>
+              <h4>LEY 26.906</h4>
+              <p>Nos aseguramos que las mediciones sean correctas, y lo hacemos conforme a la Ley 26.906.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="phrase">
-      <div class="c-container">
-        <div class="phrase__quote">
-          <p><span>“</span>Proporcionan un buen servicio con</p>
-          <p>profesionales cualificados, destando la celeridad</p>
-          <p>en el trabajo realizado. <span>”</span></p>
-        </div>
-        <div class="phrase__quote--autor">
-          <h3>DR. JUAN LUCHELLI</h3>
-        </div>
+  </div>
+  <div class="phrase-qualified">
+    <div class="c-container">
+      <div class="phrase__quote phrase__quote--grey">
+        <p><span>“</span>Proporcionan un buen servicio con</p>
+        <p>profesionales cualificados, destando la celeridad</p>
+        <p>en el trabajo realizado. <span>”</span></p>
+      </div>
+      <div class="phrase__quote--autor">
+        <h3>DR. JUAN LUCHELLI</h3>
       </div>
     </div>
-    <div class="certificate" id="trazabilidad">
-      <div class="c-container">
-        <div class="certificate__box">
-          <div class="row">
-            <div class="col-12 col-lg-5 mb-5 mb-lg-0">
-              <div class="certificate__box--item">
-                <div class="oval-item"><a href="http://"><img src="images/icon-cert.svg" alt=""></a></div>
-                <h4>Certificado</h4>
-                <p>Entregamos certificados por los ensayos realizados a los equipos médicos. </p>
+  </div>
+  <div class="contact" id="contacto">
+    <div class="c-container">
+      <div class="title">
+        <h3>Contacto</h3>
+      </div>
+      <div class="contact__box">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8">
+            <p>Dejanos tu consulta, y te estaremos respondiendo a la brevedad.</p>
+            <form>
+              <div class="form-group">
+                <input class="form-control" id="formGroupExampleInput" type="text" placeholder="Nombre">
               </div>
-            </div>
-            <div class="col-12 col-lg-5">
-              <div class="certificate__box--item">
-                <div class="oval-item"><a href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/220000-224999/224109/norma.htm"><img src="images/icon-law.svg" alt=""></a></div>
-                <h4>LEY 26.906</h4>
-                <p>Nos aseguramos que las mediciones sean correctas, y lo hacemos conforme a la Ley 26.906.</p>
+              <div class="form-group">
+                <input class="form-control" id="formGroupExampleInput2" type="text" placeholder="Email">
               </div>
-            </div>
+              <div class="form-group">
+                <input class="form-control" id="formGroupExampleInput2" type="text" placeholder="Teléfono">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                  placeholder="Mensaje"></textarea>
+              </div>
+              <button class="btn-submmit" type="submit">Enviar</button>
+            </form>
+          </div>
+          <div class="wsp col-12">
+            <div class="wsp--item"><img src="images/wsp-icon.svg" alt=""><a href="tel:+541132812330">+54 9 11
+                3281-2330</a></div>
+            <div class="wsp--item"><img src="images/wsp-icon.svg" alt=""><a href="tel:+541132789091">+54 9 11
+                3278-9091</a></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="phrase-qualified">
-      <div class="c-container">
-        <div class="phrase__quote phrase__quote--grey">
-          <p><span>“</span>Proporcionan un buen servicio con</p>
-          <p>profesionales cualificados, destando la celeridad</p>
-          <p>en el trabajo realizado. <span>”</span></p>
-        </div>
-        <div class="phrase__quote--autor">
-          <h3>DR. JUAN LUCHELLI</h3>
-        </div>
+  </div>
+  <div class="foot-logo">
+    <div class="foot-logo__item"><img src="images/logo-insitu-lg.svg" alt=""></div>
+  </div>
+  <footer>
+    <div class="c-container">
+      <div class="footer">
+        <p>© 2019 by Insitu Certificaciones Técnicas</p><a href="">We © 2019 by Alexis Aguilera</a>
       </div>
     </div>
-    <div class="contact" id="contacto">
-      <div class="c-container">
-        <div class="title">
-          <h3>Contacto</h3>
-        </div>
-        <div class="contact__box">
-          <div class="row justify-content-center">
-            <div class="col-12 col-lg-8">
-              <p>Dejanos tu consulta, y te estaremos respondiendo a la brevedad.</p>
-              <form>
-                <div class="form-group">
-                  <input class="form-control" id="formGroupExampleInput" type="text" placeholder="Nombre">
-                </div>
-                <div class="form-group">
-                  <input class="form-control" id="formGroupExampleInput2" type="text" placeholder="Email">
-                </div>
-                <div class="form-group">
-                  <input class="form-control" id="formGroupExampleInput2" type="text" placeholder="Teléfono">
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
-                </div>
-                <button class="btn-submmit" type="submit">Enviar</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="foot-logo">
-      <div class="foot-logo__item"><img src="images/logo-insitu-lg.svg" alt=""></div>
-    </div>
-    <footer>
-      <div class="c-container">
-        <div class="footer"> 
-          <p>© 2019 by Insitu Certificaciones Técnicas</p><a href="">We © 2019 by Alexis Aguilera</a>
-        </div>
-      </div>
-    </footer>
-  </body>
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="js/main.js">     </script>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/main.js">     </script>
+
 </html>
